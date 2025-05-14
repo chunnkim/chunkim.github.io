@@ -1,4 +1,5 @@
 /* Ukuran A4 */
+
 @page {
   size: A4;
   margin: 0;
@@ -6,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #d2e9f7;
+  background-color:#d2e9fd;
   margin: 0;
   padding: 0;
 }
@@ -26,17 +27,23 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #94bbe2;
+  color: #ffffff;
+  padding:20px;
+  border-radius: 5px;
+  box-shadow: 0 4 5px rgba(0,0,0,0.2);
 }
 
 .header h1 {
-  color: #2c3e50;
-  font-size: 24px;
+  color: #ffffff;
+  font-size: 28px;
+  
 }
 
 .photo img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  border-radius: 60%;
   object-fit: cover;
   border: 4px solid #ffffff;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
@@ -65,6 +72,8 @@ hr {
 
 .section {
   margin-bottom: 20px;
+  border-bottom:2px solid #ecf4db;
+  
 }
 
 .section h3 {
@@ -83,7 +92,13 @@ hr {
   margin-bottom: 5px;
 }
 
-.section p {
-  font-size: 14px;
-  margin: 5px 0;
+.kontak  {
+  .kontak {
+  text-align: center; /* Memusatkan teks */
+  position: absolute; /* Posisi absolut untuk menempatkan di bagian bawah */
+  bottom: 20px; /* Jarak dari bagian bawah */
+  left: 50%; /* Memulai dari tengah secara horizontal */
+  transform: translateX(-50%); /* Memastikan elemen benar-benar di tengah */
+  width: 100%; /* Opsional: agar elemen tetap responsif */
+}
 }
